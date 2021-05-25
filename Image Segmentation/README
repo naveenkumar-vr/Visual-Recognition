@@ -1,0 +1,1 @@
+The algorithm will output the mask alone image of the given input image. Technique used is OpenCV GrabCut.
