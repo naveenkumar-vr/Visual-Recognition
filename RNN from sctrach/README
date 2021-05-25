@@ -1,0 +1,26 @@
+RNN from scratch
+
+Observation:
+
+Using ‘NaveenKumar_IMT2017029’ as the word
+• Without bias the word was not produced even after 10000
+iterations.
+• With bias the word was produced within 350 iterations, also with
+bias the change in loss is rapid.
+
+2. Implementation details:
+
+Used Adagrad method with adagrad epsilon = 1e-8 Observations:
+Using ‘NaveenKumar_IMT2017029’ as the word and hidden size=8
+• Using SGD, the word was produced in 350 iterations.
+• Using the Adagrad method the word was produced within
+200 iterations.
+
+3. Observations:
+• With hidden size = 8
+The word was produced within 200 iterations. • With hidden size = 16
+The word was produced within 100 iterations. • With hidden size = 24
+The word was produced within 40 iterations. • With hidden size = 25
+The word was produced within 30 iterations.
+
+Any hidden size higher than this gives a similar result.
